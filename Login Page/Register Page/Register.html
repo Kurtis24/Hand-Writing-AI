@@ -4,44 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register Page</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style_1.css">
+    <link href="<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <div class="container">
-        <h2>Registration Form</h2>
-        <div class="form-container">
-            <form>
+    <div class="wrapper">
+        <form action="">
+            <h1>Register</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username" required>
+                <i class='bx bxs-user'></i>
+            </div>
 
-                <div class="input-name">
-                    <i class="fa fa-user lock"></i>
-                    <input type="text" placeholder="First Name" class="name">
+            <div class="input-box">
+                <input type="password" placeholder="Password" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
 
-                    <span>
-                        <i class="fa fa-user lock"></i>
-                        <input type="text" placeholder="Last Name" class="name">
-                    </span>
-                </div>
+            <div class="input-box">
+                <input type="password" placeholder="Confirm Password" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
 
-                <div class="input-name">
-                    <i class="fa fa-envelope email"></i>
-                    <input type="email" placeholder="Email" required class="text-name">
-                </div>
-                
-                <div class="input-name">
-                    <i class="fa fa-lock lock"></i>
-                    <input type="password" placeholder="Password" required class="text-name">
-                </div>
+            <div class="input-box">
+                <input type="password" placeholder="Phone Number" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
 
-                <div class="input-name">
-                    <i class="fa fa-lock lock"></i>
-                    <input type="email" placeholder="Confirm Password" required class="text-name">
-                </div>
+            <button type="submit" class="btn">Register</button>
 
-            </form>
-        </div>
-    </div>    
+            <div class="register-link">
+                <p>Already have a account? <a href="index.html">Login</a></p>
+            </div>
+        </form>
+    </div>
+
 </body>
 </html>
